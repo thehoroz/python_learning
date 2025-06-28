@@ -29,11 +29,3 @@ class Car:
             print("This car's service history:")
             for i, item in enumerate(self.service_history, start=1):
                 print(f"{i}: {item}")
-
-bmw_116i = Car("BMW", "116i", 75000)
-bmw_116i.update_mileage(10000)
-bmw_116i.display()
-bmw_116i.add_service_note("Oil changed")
-bmw_116i.add_service_note("Sparkplugs renewed")
-bmw_116i.show_service_history()
-print(bmw_116i)
